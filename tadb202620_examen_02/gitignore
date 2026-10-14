@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------
+# Credenciales y certificados (preventivo)
+# ---------------------------------------------------------------------
+# Hoy no hay ninguno en el repositorio, pero si alguno queda en la
+# carpeta por error, Git no lo sube.
+.env
+.env.*
+*.pem
+*.crt
+*.cer
+*.key
+*.p12
+*.pfx
+
+# ---------------------------------------------------------------------
+# Datos de origen
+# ---------------------------------------------------------------------
+# La sábana la entrega el docente y se puede reconstruir desde los
+# scripts; no hace falta versionar 40.000 filas.
+*.csv
+*.zip
+
+# ---------------------------------------------------------------------
+# DBeaver (configuración local de conexiones, puede incluir contraseñas)
+# ---------------------------------------------------------------------
+.dbeaver/
+.project
+.settings/
+
+# ---------------------------------------------------------------------
+# Archivos temporales de Microsoft Office
+# ---------------------------------------------------------------------
+~$*
+*.tmp
+
+# ---------------------------------------------------------------------
+# Archivos del sistema operativo
+# ---------------------------------------------------------------------
+# Windows
+Thumbs.db
+desktop.ini
+# macOS
+.DS_Store
+
+# ---------------------------------------------------------------------
+# Editores
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
